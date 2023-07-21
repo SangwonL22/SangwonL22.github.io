@@ -32,18 +32,21 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
-      <div>
-        <img src="imgs/favicon.ico" alt="logo" />
-        <h1><a href="#">SANGWON&#39;s Portfolio</a></h1>
+    <header class="header">
+      <div class="header__logo">
+        <img class="header__logo__img" src="imgs/favicon.ico" alt="logo" />
+        <h1 class="header__logo__title"><a href="#">SANGWON</a></h1>
       </div>
       <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul class="header__menu">
+          <li><a class="header__menu__item active" href="#home">Home</a></li>
+          <li><a class="header__menu__item" href="#about">About</a></li>
+          <li><a class="header__menu__item" href="#skills">Skills</a></li>
+          <li><a class="header__menu__item" href="#work">My work</a></li>
+          <li>
+            <a class="header__menu__item" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="header__menu__item" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -52,7 +55,10 @@
       <!-- Home -->
       <section id="home">
         <img src="imgs/profile.png" alt="SANGWON's 프로파일" />
-        <h2>안녕하세요. 주니어 프론트 개발자 이상원입니다.</h2>
+        <h2>
+          안녕하세요.<br />
+          주니어 프론트 개발자 이상원입니다.
+        </h2>
         <p>스스로 독학중인 주니어 프론트엔드 개발자</p>
         <a href="#contact">Contact Me</a>
       </section>
