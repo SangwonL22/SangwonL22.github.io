@@ -383,3 +383,38 @@ button:focus {
   height: 2px;
   background-color: var(--color-accent);
 }
+
+/* Hobbies */
+.hobbies {
+  margin: 3rem;
+}
+
+.hobby {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.hobby:nth-child(even) .hobby__img {
+  order: 1;
+}
+
+.hobby__img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.hobby__bubble {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.hobby__bubble__name {
+  color: var(--color-accent);
+  font-weight: bold;
+  filter: brightness(70%);
+}
