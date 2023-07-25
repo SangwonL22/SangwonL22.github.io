@@ -220,44 +220,28 @@
           <p class="description" class="description">Projects</p>
           <ul class="categories">
             <li>
-              <button class="category category--selected">
+              <button class="category category--selected" data-category="all">
                 All <span class="category__count">6</span>
               </button>
             </li>
             <li>
-              <button class="category">
-                Vanilla JavaScript <span class="category__count">2</span>
+              <button class="category" data-category="vailla-javascript">
+                Vanilla-JavaScript <span class="category__count">2</span>
               </button>
             </li>
             <li>
-              <button class="category">
-                Website-Project <span class="category__count">1</span>
+              <button class="category" data-category="website-project">
+                Website-Project <span class="category__count">2</span>
               </button>
             </li>
             <li>
-              <button class="category">
-                React-Project <span class="category__count">3</span>
+              <button class="category" data-category="react-project">
+                React-Project <span class="category__count">2</span>
               </button>
             </li>
           </ul>
           <ul class="projects">
-            <li class="project">
-              <a
-                href="https://sangwonl22.github.io/coordinate-target-project/"
-                target="_blank"
-              >
-                <img
-                  src="imgs/projects/project-gun-project.png"
-                  alt="gun-project"
-                  class="project__img"
-                />
-                <div class="project__metadata">
-                  <h3 class="project__title">Shooing Gun</h3>
-                  <p>HTML, CSS, Vanilla JavaScript with APIs</p>
-                </div>
-              </a>
-            </li>
-            <li class="project">
+            <li class="project" data-type="vailla-javascript">
               <a
                 href="https://sangwonl22.github.io/Basic-shopping-list/"
                 target="_blank"
@@ -273,7 +257,7 @@
                 </div>
               </a>
             </li>
-            <li class="project">
+            <li class="project" data-type="vailla-javascript">
               <a href="#" target="_blank">
                 <img
                   src="imgs/projects/project-game.png"
@@ -281,12 +265,12 @@
                   class="project__img"
                 />
                 <div class="project__metadata">
-                  <h3 class="project__title">당근 잡기 게임</h3>
+                  <h3 class="project__title">Carrot Game</h3>
                   <p>HTML, CSS, Vanilla JavaScript with APIs</p>
                 </div>
               </a>
             </li>
-            <li class="project">
+            <li class="project" data-type="website-project">
               <a href="#" target="_blank">
                 <img
                   src="imgs/projects/project-website.png"
@@ -299,7 +283,7 @@
                 </div>
               </a>
             </li>
-            <li class="project">
+            <li class="project" data-type="react-project">
               <a href="#" target="_blank">
                 <img
                   src="imgs/projects/project-react-todo.png"
@@ -312,7 +296,7 @@
                 </div>
               </a>
             </li>
-            <li class="project">
+            <li class="project" data-type="react-project">
               <a href="#" target="_blank">
                 <img
                   src="imgs/projects/project-youtube.png"
@@ -321,6 +305,19 @@
                 />
                 <div class="project__metadata">
                   <h3 class="project__title">youtube clone coding</h3>
+                  <p>React, React Router, React Query, Tailwind-CSS</p>
+                </div>
+              </a>
+            </li>
+            <li class="project" data-type="website-project">
+              <a href="#" target="_blank">
+                <img
+                  src="imgs/projects/project-react-shoppng-website.png"
+                  alt="gun-project"
+                  class="project__img"
+                />
+                <div class="project__metadata">
+                  <h3 class="project__title">Shopping Website</h3>
                   <p>React, React Router, React Query, Tailwind-CSS</p>
                 </div>
               </a>
