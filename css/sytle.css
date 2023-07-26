@@ -516,11 +516,18 @@ button:focus {
   right: 3rem;
   font-size: 3rem;
   width: 4.5rem;
+  opacity: 0;
+  pointer-events: none;
   height: 4.5rem;
   border-radius: 100%;
   text-align: center;
   box-shadow: 5px 5px 0px 0px var(--color-accent);
   transition: opacity 300ms ease-in;
+}
+
+.arrow-up.visible {
+  opacity: 1;
+  pointer-events: all;
 }
 
 /* Footer */
@@ -600,6 +607,16 @@ button:focus {
 
   #home {
     padding-bottom: 3rem;
+  }
+
+  .home__container {
+    padding-top: 2rem;
+  }
+
+  .home__avatar {
+    bottom: -50px;
+    width: 400px;
+    height: 400px;
   }
 
   .home__title {

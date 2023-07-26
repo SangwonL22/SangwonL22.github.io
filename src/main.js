@@ -22,9 +22,9 @@ document.addEventListener('scroll', () => {
 const arrowUp = document.querySelector('.arrow-up');
 document.addEventListener('scroll', () => {
   if (window.scrollY > homeHeight / 2) {
-    arrowUp.style.opacity = 1;
+    arrowUp.classList.add('visible');
   } else {
-    arrowUp.style.opacity = 0;
+    arrowUp.classList.remove('visible');
   }
 });
 
@@ -32,7 +32,7 @@ document.addEventListener('scroll', () => {
 const navbarMenu = document.querySelector('.header__menu');
 const navbarToggle = document.querySelector('.header__toggle');
 navbarToggle.addEventListener('click', () => {
-  navbarMenu.classList.add('open');
+  navbarMenu.classList.toggle('open');
 });
 
 // Navbar 메뉴 클릭시 메뉴를 자동으로 닫아줌
