@@ -31,12 +31,15 @@
       src="https://kit.fontawesome.com/13cb755b54.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Typeit -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="css/sytle.css" />
     <!-- JavaScript -->
     <script type="module" src="src/main.js" defer></script>
     <script type="module" src="src/projects.js" defer></script>
     <script type="module" src="src/actiive__menu.js" defer></script>
+    <script type="module" src="src/type.js" defer></script>
   </head>
   <body>
     <!-- Header -->
@@ -65,22 +68,26 @@
     <main>
       <!-- Home -->
       <section id="home">
-        <div class="home__container">
+        <div class="max-container home__container">
           <img
             class="home__avatar"
             src="imgs/profile.png"
             alt="SANGWON's 프로파일"
           />
-          <h2 class="home__title">
-            안녕하세요.<br />
-            주니어
-            <strong class="home__title--strong">프론트 개발자</strong>
-            이상원입니다.
-          </h2>
-          <p class="home__description">
-            스스로 독학중인 주니어 프론트엔드 개발자
-          </p>
-          <a class="home__contact" href="#contact">Contact Me</a>
+          <div>
+            <h2
+              class="home__title"
+              aria-label="안녕하세요, 프론트엔드 개발자 이상원입니다."
+            >
+              안녕하세요,<br />
+              <strong class="home__title--strong">프론트엔드 개발자</strong>
+              이상원입니다.
+            </h2>
+            <p class="home__description">
+              스스로 독학중인 주니어 프론트엔드 개발자
+            </p>
+            <a class="home__contact" href="#contact">Contact Me</a>
+          </div>
         </div>
       </section>
       <!-- About -->
