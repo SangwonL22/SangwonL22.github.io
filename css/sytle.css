@@ -602,6 +602,7 @@ button:focus {
   }
 
   .header__nav {
+    background-color: var(--color-primary);
     width: 100%;
   }
 
