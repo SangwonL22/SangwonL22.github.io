@@ -639,6 +639,10 @@ button:focus {
     justify-content: center;
   }
 
+  #skills::after {
+    width: 100%;
+  }
+
   .skills {
     grid-template-columns: 1fr;
   }
