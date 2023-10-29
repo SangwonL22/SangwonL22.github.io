@@ -15,7 +15,7 @@ new TypeIt('.home__title--strong', {
   .type('새로운 것도 배우고 싶은 ')
   .pause(1500)
   .delete()
-  .type('분야에 상관없는 ')
+  .type('분야에 상관없이 꾸준하고 싶은 ')
   .pause(1500)
   .delete()
   .type('오픈마인드인 ')

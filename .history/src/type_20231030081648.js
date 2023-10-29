@@ -22,6 +22,7 @@ new TypeIt('.home__title--strong', {
   .pause(1500)
   .move(null, { to: 'END' })
   .delete()
+  .type('태도를 보여주는 ')
   .type(' ')
   .pause(3000)
   .delete()
