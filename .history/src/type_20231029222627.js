@@ -2,7 +2,7 @@
 
 new TypeIt('.home__title--strong', {
   loop: false,
-  speed: 120,
+  speed: 150,
 }) // 프론트엔드 개발자
   .move(-3)
   .delete()

@@ -3,7 +3,7 @@
   /* App Colors */
   --color-primary: var(--color-black);
   --color-primary-variant: var(--color-gray);
-  --color-accent: var(--color-mint);
+  --color-accent: var(--color-yellow);
   --color-accent-variant: var(--color-orange);
   --color-text: var(--color-white);
 
@@ -23,7 +23,7 @@
   --color-orange: #fd6413;
   --color-gray: #1b1e26;
   --color-green: #d5ff40;
-  --color-mint: #1ad2f2;
+  --color-yellow: #ffc03c;
   --color-pink: #fe6d79;
 
   /* Size */
@@ -378,7 +378,7 @@ button:focus {
   display: flex;
   justify-content: center;
   margin: 2.5rem;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .category {
@@ -625,7 +625,6 @@ button:focus {
 
   .home__title {
     font-size: 2.5rem;
-    margin-top: 6rem;
     margin-bottom: 0.5rem;
   }
 

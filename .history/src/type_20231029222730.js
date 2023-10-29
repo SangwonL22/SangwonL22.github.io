@@ -2,9 +2,11 @@
 
 new TypeIt('.home__title--strong', {
   loop: false,
-  speed: 120,
+  speed: 150,
 }) // 프론트엔드 개발자
-  .move(-3)
+  .move(-9)
+  .delete()
+  .move(3)
   .delete()
   .type('무엇이든 근면 성실하게 해낼 ')
   .pause(2000)
